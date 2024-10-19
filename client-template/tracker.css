@@ -1,0 +1,40 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #currentBalance {
+    color: #28a745;
+  }
+  
+  .transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .transaction-item .description {
+    font-weight: bold;
+  }
+  
+  .transaction-item .amount {
+    font-size: 1.2rem;
+  }
+  
+  .transaction-item .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .transaction-item .actions button {
+    border: none;
+    background: transparent;
+    color: #007bff;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,51 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #questionList {
+    margin-top: 20px;
+  }
+  
+  .question-card {
+    margin-bottom: 20px;
+  }
+  
+  .bot-answer {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .star-rating {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .star {
+    color: gold;
+    font-size: 1.5rem;
+  }
+  
+  .star.inactive {
+    color: #ddd;
+  }
+  
+  .question-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .question-actions button {
+    margin-left: 5px;
+  }
+
+  
+
+
+
+ 
